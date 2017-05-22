@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "AvenirNextLTPro-DemiCn";
+    src : url(../public/css/avenir-next-lt-pro/AvenirNextLTPro-DemiCn.woff);
+}
+body {
+    font-family: "AvenirNextLTPro-DemiCn";
+    font-size:2em;
+}
+
+.logo {
+    
+}
+#index.logo {
+    
+}
+
+.link {
+    text-decoration: none;
+    color: red;
+    font-family: "verdana";
+}
+.link:hover {
+    color: #ED8B33;
+}
+.grid {
+    margin: 0% 8% 0% 8%;
+    display: grid;
+    grid-template-columns: 1fr 2% 1fr 2% 1fr;
+    grid-template-rows: 1fr 1% 1fr 1% 1fr 1% 1fr 1% 1fr;
+    background-color: gray;
+}
+.gridItem1 {
+    background-color: red;
+    grid-row: 1/5;
+    grid-column: 1/4;
+}.gridItem2 {
+    background-color: green;
+    grid-row: 1/12;
+    grid-column: 5;
+}.gridItem3 {
+    margin-top:5%;
+    background-color: blue;
+    grid-row: 5/8;
+    grid-column: 1;
+}.gridItem4 {
+    margin-top:5%;
+    background-color: orange;
+    grid-row: 5/8;
+    grid-column: 3;
+}.gridItem5 {
+    margin-top:5%;
+    background-color: black;
+    color:white;
+    grid-row: 9/12;
+    grid-column: 1;
+}.gridItem6 {
+    margin-top:5%;
+    background-color: yellow;
+    grid-row: 9/12;
+    grid-column: 3;
+}
+    
+.grid.artist {
+    margin: 0% 8% 0% 8%;
+    display: grid;
+    grid-template-columns: 1fr 2% 1fr 2% 1fr;
+    grid-template-rows: 1fr 1% 1fr 1% 1fr 1% 1fr 1% 1fr;
+    background-color: gray;
+}
+.gridItem1.artist {
+    background-color: red;
+    grid-row: 1/5;
+    grid-column: 1/4;
+}.gridItem2.artist {
+    background-color: green;
+    grid-row: 1/12;
+    grid-column: 5;
+}.gridItem3.artist {
+    margin-top:5%;
+    background-color: blue;
+    grid-row: 5/8;
+    grid-column: 1;
+}.gridItem4.artist {
+    margin-top:5%;
+    background-color: orange;
+    grid-row: 5/8;
+    grid-column: 3;
+}.gridItem5.artist {
+    margin-top:5%;
+    background-color: black;
+    color:white;
+    grid-row: 9/12;
+    grid-column: 1;
+}.gridItem6.artist {
+    margin-top:5%;
+    background-color: yellow;
+    grid-row: 9/12;
+    grid-column: 3;
+}
